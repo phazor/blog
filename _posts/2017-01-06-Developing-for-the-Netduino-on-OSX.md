@@ -2,6 +2,7 @@
 published: true
 hidden: false
 layout: post
+tags: [IoT]
 ---
 
 <!-- ## Developing for the Netduino Plus 2 in MacOS X -->
