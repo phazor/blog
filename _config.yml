@@ -11,7 +11,7 @@ url:                 https://phazor.github.io
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:             /blog2
+baseurl:             /blog
 
 title:               Tristan's Blog
 
@@ -27,7 +27,7 @@ description:         >
 sidebar_tags:        [IoT]
 
 # Fallback image and color if not overwritten for tag or post
-image:               /blog2/public/img/nap.jpg
+image:               /blog/public/img/nap.jpg
 color:               '#A85641'
 
 # Fonts
@@ -40,8 +40,8 @@ author:
   name:              'Tristan Read'
 
   # This photo will be used in the about section
-  photo:             /blog2/public/img/me.jpg
-  photo2x:           /blog2/public/img/me.jpg
+  photo:             /blog/public/img/me.jpg
+  photo2x:           /blog/public/img/me.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
