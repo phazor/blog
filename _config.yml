@@ -24,7 +24,7 @@ description:         >
   Ramblings. Patiently awaiting the cyberpunk dystopia.
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [IoT, Mobile dev]
+sidebar_tags:        [IoT]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /blog2/public/img/nap.jpg
