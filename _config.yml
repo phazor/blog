@@ -40,8 +40,8 @@ author:
   name:              'Tristan Read'
 
   # This photo will be used in the about section
-  photo:             https://phazor.github.io/blog2/img/me.jpg
-  photo2x:           https://phazor.github.io/blog2/img/me.jpg
+  photo:             /blog2/public/img/me.jpg
+  photo2x:           /blog2/public/img/me.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
