@@ -18,15 +18,15 @@ I was a fan of Netduino, and then I consolidated my dev machines down to a singl
 3. VirtualBox
    - Success!
 
-### 1.1 Installing Virtual Box
+### 1. Installing Virtual Box
 
   Install from here: https://www.virtualbox.org/wiki/Downloads => OSX Hosts.
 
   Run the installer and follow the instructions/steps.
 
-### 1.2 Get Windows
+### 2. Get Windows
 
-#### 1.2.1 Download a legit, free, copy
+#### 2.1 Download a legit, free, copy
   Microsoft provides free Windows VMs for the purpose of testing Microsoft Edge. Please read the license included with each VM to ensure that it complies with your intended usage.
 
   Navigate to https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/ => Select any Windows version and make sure to select the VirtualBox download (.ovf extension).
@@ -37,19 +37,19 @@ I was a fan of Netduino, and then I consolidated my dev machines down to a singl
 
   If you have a Windows license, use a full version instead :).
 
-### 1.2.2 Install Windows
+### 2.2 Install Windows
 
   Double click the .ovf file to import the Virtual Machine into VirtualBox.
 
   Once the VM has imported and Windows has started successfully, take a snapshot. This gives you something to roll back to, should there be an issue in the later steps.
 
-#### 1.3 Enable USB in VirtualBox
+#### 3. Enable USB in VirtualBox
 
   Enable USB access in VirtualBox. VirtualBox allows you to add filters to allow individual devices. Don't forget to to restart the VM between adding/changing these!
 
   `Right Click VM` -> `Settings` -> `Ports` -> `USB` -> `Enable USB 1.1 Controller`
 
-### 1.4 Install Visual Studio Express 2013 and Tools
+### 4. Install Visual Studio Express 2013 and Tools
 
   For this section I followed the 'Development Environment' steps from http://www.netduino.com/downloads/.
 
@@ -67,15 +67,15 @@ I was a fan of Netduino, and then I consolidated my dev machines down to a singl
 
   More details here http://forums.netduino.com/index.php?/topic/913-build-error-0x80131700/.
 
-### 1.5 Set up workspace
+### 5. Set up workspace
 
   Open Visual Studio Express 2013. You should be able to create a new project using a .Net Micro Framework Template.
 
   Under `File`, go `New Project` -> `Installed` -> `Templates` -> `Visual C#` -> `Micro Framework` and select `Netduino Application (Universal)`.
 
-### 1.6 Deploy your first program
+### 6. Deploy your first program
 
-#### 1.6.1 Write your first Program
+#### 6.1 Write your first Program
 
   Navigate to program.cs.
 
@@ -92,7 +92,7 @@ I was a fan of Netduino, and then I consolidated my dev machines down to a singl
     }
   ```
 
-#### 1.6.2 Configure the Project
+#### 6.2 Configure the Project
 
   Double click `Properties` in the Solution Explorer.
 
@@ -110,13 +110,13 @@ I was a fan of Netduino, and then I consolidated my dev machines down to a singl
 
   The Emulator can be found under `.NET Micro Framework` -> `Transport` -> `Emulator`, in the Project Properties.
 
-### 1.7 Take a snapshot!!
+### 7. Take a snapshot!!
 
   You are now all set up ;). Please remember to take a snapshot if you are using one of Microsoft's free VMs, so that you restore to a working state after the 6 months is up :).
 
-### 1.8 Rinse and Repeat... or not.
+### 8. Rinse and Repeat... or not.
 
-  If you are a school/library and need to get this working for a whole IT class, at this state you can export the VirtualBox image and copy it around the classroom, to avoid having to repeat this.
+  If you are a school/library and need to get this working for a whole classroom, at this point you can export the VirtualBox image and copy it around the classroom. Much easier than following these steps again :).
 
 ## Appendix: Updating the Netduino firmware
 
@@ -132,4 +132,4 @@ I was a fan of Netduino, and then I consolidated my dev machines down to a singl
 
   I also installed the STDFU drivers + tools (http://www.netduino.com/downloads/dfusedemo_3.0.3.zip) but I'm unsure whether this helped.
 
-  If you aren't able to get the Netduino to be recognised by the VM, try enabling all usb devices in the VirtualBox control panel.
+  Finally, if you aren't able to get the Netduino to be recognised by the VM, try enabling all usb devices in the VirtualBox control panel.
